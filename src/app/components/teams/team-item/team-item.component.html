@@ -1,0 +1,13 @@
+<div class="card">
+    <h5 class="card-header bg-info text-white">Equipo {{pos}}</h5>
+    <div class="card-body bg-card-team">
+        <h5 class="card-title">{{team.name}}</h5>
+        <hr>
+        <h6><b>Entrenador: </b><span>{{team.coach}}</span></h6>
+        <h6><b>Estadio: </b><span>{{team.stadium}}</span></h6>
+        <div class="text-right mt-4">
+            <button class="btn btn-warning mr-2" (click)="editTeam(team.$key)"><i class="far fa-edit"></i></button>
+            <button class="btn btn-danger" (click)="deleteTeam(team.$key)"><i class="far fa-trash-alt"></i></button>
+        </div>
+    </div>
+</div>

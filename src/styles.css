@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+.bg-card-team {
+    background-color: #fdf7f7;
+}
+
+.bg-card-form {
+    background-color: #fffbf6;
+}
